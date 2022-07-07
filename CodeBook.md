@@ -91,16 +91,16 @@ x.train: Data frame storing dataset.dir/train/X_train.txt data\
 y.train: Data frame storing dataset.dir/train/Y_train.txt data
 
 ### run_analysis.R
-sets: A list of data frames obtained from downloaded dataset
-test.set: The test directory data merged into one data frame
-train.set: The train directory data merged into one data frame
-data.set: The test and train directories data merged into one data frame
-features: features names and indices data frame got it from features.txt
-mean.std.index: Indices of the mean and standard deviation for each measurement.
-activity.names: Activity names labels from activity_labels.txt
-features.names: Column vector from features, stores names located at features mean.std.index indices
-grouped.data.set: data.set grouped by Subject_ID and Activity
-tidy.data.set: Tidied data set, each row is the average of each variable for each activity and each subject.
+sets: A list of data frames obtained from downloaded dataset\
+test.set: The test directory data merged into one data frame\
+train.set: The train directory data merged into one data frame\
+data.set: The test and train directories data merged into one data frame\
+features: features names and indices data frame got it from features.txt\
+mean.std.index: Indices of the mean and standard deviation for each measurement.\
+activity.names: Activity names labels from activity_labels.txt\
+features.names: Column vector from features, stores names located at features mean.std.index indices\
+grouped.data.set: data.set grouped by Subject_ID and Activity\
+tidy.data.set: Tidied data set, each row is the average of each variable for each activity and each subject.\
 
 ## Transformations or work performed
 1. Merge train and test sets
